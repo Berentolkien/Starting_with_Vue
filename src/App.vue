@@ -1,15 +1,12 @@
 <template>
-  <CounterComposition />
-  <CounterComposition />
-  <CounterComposition />
-  <CounterComposition />
+ <StyleBind />
 </template>
 
 <script lang="ts" setup>
-import CounterComposition from './components/CounterComposition.vue';
+import StyleBind from './components/StyleBind.vue';
 </script>
 
-<style>
+<style scoped>
 h1 {
   color: green;
 }
