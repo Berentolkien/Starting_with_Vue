@@ -1,9 +1,9 @@
 <template>
- <StyleBind />
+ <ModelForm />
 </template>
 
 <script lang="ts" setup>
-import StyleBind from './components/StyleBind.vue';
+import ModelForm from './components/ModelForm.vue';
 </script>
 
 <style scoped>
